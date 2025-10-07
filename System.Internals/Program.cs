@@ -1,10 +1,15 @@
 ﻿namespace System.Internals
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            WrkHw wrkHw = new WrkHw();
+            wrkHw.GetSystemHardwareInfo();
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+
         }
     }
 }

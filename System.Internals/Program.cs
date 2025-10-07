@@ -4,8 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("welcome to programing world!");
+            // Create an instance of your class
+            NetworkInfo networkInfo = new NetworkInfo();
+            // Call the method to display network details
+            networkInfo.DisplayNetworkDetails();
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
         }
     }
 }

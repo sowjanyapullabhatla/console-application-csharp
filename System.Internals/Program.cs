@@ -1,9 +1,12 @@
 ﻿namespace System.Internals
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            WrkHw wrkHw = new WrkHw();
+            wrkHw.GetSystemHardwareInfo();
+
             Console.WriteLine("Hello, World!");
             Console.WriteLine("welcome to programing world!");
             // Create an object of OSdetails

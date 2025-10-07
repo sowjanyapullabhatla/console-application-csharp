@@ -13,6 +13,11 @@
             myOS.DisplayOSDetails();
 
             // Keep the console open
+            // Create an instance of your class
+            NetworkInfo networkInfo = new NetworkInfo();
+            // Call the method to display network details
+            networkInfo.DisplayNetworkDetails();
+
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }

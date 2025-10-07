@@ -20,7 +20,7 @@ public class AdditionApp
         }
 
         // Get the second number from the user
-        Console.Write("Enter the second number: ");
+        Console.Write("Enter the second number 1: ");
         string input2 = Console.ReadLine();
         double number2;
 
